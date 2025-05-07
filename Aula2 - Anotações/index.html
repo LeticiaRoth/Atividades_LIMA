@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML101</title>
+
+</head>
+<body>
+    <hgroup> <!--Usada para agrupar títulos, garantindo o uso correto de títulos e subtítulos--> 
+        <h1>Aula 01</h1>
+        <p>Aula de Linguagem de Marcação</p>
+    </hgroup>
+    <!--TAGs de citação-->
+    <blockquote cite="https://www.bosch.com.br/nossa-empresa/bosch-no-brasil/campinas/"> <!--Atributo cite atualiza a citação que estamos fazendo, mas não é utilizado pelos navegadores-->
+        <p>
+            Digital Solutions - Bosch Campinas. <br/> <!--br = Enter-->
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <br/>
+        </p>
+    </blockquote>
+
+    <!--Citação em linha-->
+    <p>
+        Desenvolvimento de Sistemas <a href="https://sp.senai.br/unidade/campinas/" target="_blank"><cite>SENAI Roberto Mange</cite></a><br/>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry <abbr title="Hyper Text Makup Language">HTML</abbr> 
+        <!--abbr serve para abreviarmos, e em "title" nós colocamos o que queremos sem resumo-->
+
+        <hr/> <!--Cria uma linha horizontal-->
+
+        <address> <!--Serve para colocar contato, criadores da página...-->
+            <p>Criado por <a href="#">Layslla Eduarda</a></p>
+        </address><br/>
+
+        H<sub>2</sub>0<br/> <!--sub é utilizado para colocar as letras ou número embaixo-->
+        X<sup>2</sup>0<br/> <!--sup é utilizado para colocar as letras ou números em cima-->
+        
+    </p> <!--Coloca-se um "a href" para criar o link de citação, para ela ter onde ir-->
+
+        <!--TAGs de lista-->
+
+        <ul> <!--Listas não ordenadas-->
+            <li>Layslla</li>
+            <li>Leticia</li>
+            <li>Projeto</li>
+            <li>RexRoth</li>
+        </ul>
+
+        <ol> <!--Listas ordenadas-->
+            <li>Bosch</li>
+            <li>SENAI Roberto Mange</li>
+            <li>Trabalho</li>
+            <li>Estudos</li>
+        </ol>
+
+        <dl> <!--Listas descritivas / Dicionário / Glossário-->
+            <dt>Tópico 1</dt> <!--Título do que será descrito-->
+            <dd>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </dd><br/> <!--Descrição em si-->
+
+            <dt>Tópico 2</dt> <!--Título do que será descrito-->
+            <dd>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it 
+                has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing 
+                packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </dd> <!--Descrição em si-->
+
+            <dt>Tópico 3</dt> <!--Título do que será descrito-->
+            <dd>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+                and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is 
+                reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, 
+                accompanied by English versions from the 1914 translation by H. Rackham.
+            </dd> <!--Descrição em si-->
+        </dl>
+
+            <!--CLEAN CODE-->
+            <!--Sempre usar "" aspas duplas quando tiver um atributo-->
+
+        <!--TABELAS-->
+        <table>
+
+            <tr> <!--Utilizada para criar linhas-->
+                <th>1</th><!--Utilizada para criar títulos-->
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">Coluna 1</td> <!--Mesclar coluna-->
+                <td colspan="2">Coluna 2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Coluna 1</td> <!--Mesclar linha-->
+                <td>Layslla</td>
+                <td>Leticia</td>
+            </tr>
+
+            <tr> <!--Utilizada para criar linhas-->
+                <td>Item 1</td><!--Utilizada para criar colunas-->
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+            </tr>
+
+            <tr> <!--Utilizada para criar linhas-->
+                <td>Item 5</td><!--Utilizada para criar colunas-->
+                <td>Item 6</td>
+                <td>Item 7</td>
+                <td>Item 8</td>
+            </tr>
+        </table><br/>
+
+    <pre> <!--Deixa espaços em branco acontecerem-->
+        <code> <!--TAG semântica de código-->
+            a = 13;
+            b = 2;
+            if a==b{
+                print("Olá, mundo!")
+            }
+        </code>
+    </pre>
+
+    <figure> <!--TAG semântica para imagens-->
+        <img src="#">
+        <figcaption> <!--Legenda da imagem-->
+            <!--Não precisa da TAG p, só escrever direto-->
+        </figcaption>
+    </figure>
+</body>
+</html>
